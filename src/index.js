@@ -29,7 +29,7 @@ async function onFormSubmitHandler(e) {
  
     if (totalHits === 0) {
       Notiflix.Notify.failure(
-        `We're sorry, but you've reached the end of search results.`
+        `"Sorry, there are no images matching your search query. Please try again."`
       );
       return;
     }
