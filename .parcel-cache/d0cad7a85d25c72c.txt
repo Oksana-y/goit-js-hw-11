@@ -77,7 +77,7 @@
 82C:\homework\goit-js-hw-11\node_modules\fast-glob\out\providers\matchers\partial.js133179934283182087 0
 63C:\homework\goit-js-hw-11\node_modules\abortcontroller-polyfill133179934282858748 1
 71C:\homework\goit-js-hw-11\node_modules\yaml\dist\resolveSeq-d03cb037.js133179934285141999 0
-30C:\homework\goit-js-hw-11\dist133181051732670095 1
+30C:\homework\goit-js-hw-11\dist133181843912254068 1
 47C:\homework\goit-js-hw-11\src\sass\_common.scss133179930234672190 0
 87C:\homework\goit-js-hw-11\node_modules\caniuse-lite\data\features\orientation-sensor.js133179934300397820 0
 64C:\homework\goit-js-hw-11\node_modules\svgo\plugins\sortAttrs.js133179934288458099 0
@@ -115,7 +115,7 @@
 75C:\homework\goit-js-hw-11\node_modules\lmdb\dependencies\lz4\lib\lz4frame.h133179934289817707 0
 78C:\homework\goit-js-hw-11\node_modules\@parcel\runtime-browser-hmr\src\loaders133179934281497175 1
 38C:\homework\goit-js-hw-11\README.en.md133179930229594246 0
-38C:\homework\goit-js-hw-11\src\index.js133181051730339224 0
+38C:\homework\goit-js-hw-11\src\index.js133181843910214850 0
 46C:\homework\goit-js-hw-11\node_modules\@parcel133180778101036078 1
 69C:\homework\goit-js-hw-11\node_modules\simplelightbox\demo\index.html133180778087191831 0
 82C:\homework\goit-js-hw-11\node_modules\caniuse-lite\data\features\text-overflow.js133179934301686024 0
@@ -4968,8 +4968,8 @@
 54C:\homework\goit-js-hw-11\node_modules\.bin\terser.cmd133179934303240081 0
 52C:\homework\goit-js-hw-11\dist\form.b07a87f3.css.map133181050518395643 0
 53C:\homework\goit-js-hw-11\dist\index.4d663569.css.map133181050518395643 0
-48C:\homework\goit-js-hw-11\dist\index.975ef6c8.js133181051732628016 0
-52C:\homework\goit-js-hw-11\dist\index.975ef6c8.js.map133181051732660080 0
+48C:\homework\goit-js-hw-11\dist\index.975ef6c8.js133181843912208743 0
+52C:\homework\goit-js-hw-11\dist\index.975ef6c8.js.map133181843912208743 0
 49C:\homework\goit-js-hw-11\dist\index.eee7cb62.css133180789785766182 0
 50C:\homework\goit-js-hw-11\assets\repo-settings.png133179930233013529 0
 43C:\homework\goit-js-hw-11\.github\workflows133179930231681048 1

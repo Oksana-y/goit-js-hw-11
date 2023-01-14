@@ -25,11 +25,10 @@ async function onFormSubmitHandler(e) {
   try {
     const { data } = await getPhoto(name, page);
     const { hits, totalHits } = data;
-    
- 
+
     if (totalHits === 0) {
       Notiflix.Notify.failure(
-        `"Sorry, there are no images matching your search query. Please try again."`
+        `Sorry, there are no images matching your search query. Please try again.`
       );
       return;
     }
@@ -57,6 +56,15 @@ async function getMoreImageHandler(e) {
   try {
     const { data } = await getPhoto(name, page);
     const { hits, totalHits } = data;
+    console.log(totalHits);
+    console.log(hits);
+    if (hits.length < 40) {
+      Notiflix.Notify.failure(
+        `We're sorry, but you've reached the end of search results.`
+      );
+      getMoreButton.classList.add('hidden');
+    }
+
     hits.map(item => {
       const card = createGallery(item);
       gallery.insertAdjacentHTML('beforeend', card);
@@ -69,7 +77,10 @@ async function getMoreImageHandler(e) {
     getMoreButton.classList.add('hidden');
     return;
   }
+  scroll();
+}
 
+function scroll() {
   setTimeout(() => {
     const { height: cardHeight } = document
       .querySelector('.gallery')
